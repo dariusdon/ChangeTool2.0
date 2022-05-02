@@ -1,0 +1,3 @@
+Change Tool Next Steps - Alert Box for Reject, Accept, And Create
+Lista cu inregistrare
+Sa fac lista sa imi ia elementele automat

@@ -1,0 +1,112 @@
+﻿
+
+
+.signin {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: white;
+    color: #ffa500;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: all 0.5s ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+    .signin:hover {
+        background: #ffa500;
+        box-shadow: 0 4px 35px -5px #000000;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+    }
+
+    .signin:focus {
+        outline: none;
+        color: #ffa500;
+    }
+
+.add {
+    background-color: white;
+    color: #ffa500;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+    .add:hover {
+        background: #ffa500;
+        box-shadow: 0 4px 35px -5px #000000;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+    }
+    .add:focus {
+        outline: none;
+        color: #ffa500;
+    }
+.date {
+    background: #ffa500;
+    border-color: black;
+    border-radius: 10px;
+    border: 2px solid;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.fileclass {
+    background: #ffa500;
+    border-color: black;
+    border-radius: 10px;
+    border: 2px solid;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+textarea {
+    padding: 25px 75px;
+    -moz-text-size-adjust: auto;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    border: 3px solid #ffa500;
+    overflow: hidden;
+    transition: all 0.6s ease-in-out;
+    font-weight: bold;
+}
+.select {
+    background: #ffa500;
+    border-color: black;
+    border-radius: 10px;
+    border: 2px solid;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text {
+    font-weight: bold;
+    color:white;
+    font-size: 16px;
+    padding: 5px 5px;
+    background: transparent;
+    border-radius: 10px;
+    border: 3px solid #ffa500;
+    overflow: hidden;
+    margin-top: 0px;
+    transition: all 0.6s ease-in-out;
+}
+img{
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 1.0;
+}

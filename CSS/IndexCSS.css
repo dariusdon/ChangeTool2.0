@@ -1,0 +1,163 @@
+﻿
+body,
+.signin {
+    padding-top: 100px;
+    background-color: #d3d3d3;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.login {
+    position: relative;
+    height: 450px;
+    width: 800px;
+    margin: auto;
+    padding: 60px 60px;
+    background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ee8ec737979983.5751f6802f5e3.jpg) no-repeat center center #505050;
+    background-size: cover;
+    box-shadow: 0 30px 60px -5px #000;
+}
+
+form {
+    padding-top: 80px;
+}
+
+.active {
+    border-bottom: 2px solid #ffa500;
+}
+
+.nonactive {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+h2 {
+    padding-left: 12px;
+    font-size: 24px;
+    padding-top: 50px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+    h2:first-child {
+        padding-left: 0;
+    }
+
+.text {
+    width: 50%;
+    padding: 10px 10px;
+    display: block;
+    height: 16px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #ffa500;
+    overflow: hidden;
+    margin-top: 0;
+    transition: all 0.6s ease-in-out;
+}
+
+    .text:focus {
+        outline: 0;
+        border: 2px solid #ffa500;
+        border-radius: 20px;
+        background: rgba(0, 0, 0, 0);
+    }
+
+        .text:focus + span {
+            opacity: 0.3;
+        }
+
+input[type="text"],
+input[type="password"] {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+
+
+input {
+    display: inline-block;
+    color: white;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+label {
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: -10px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signin {
+    background-color: #000000;
+    color: #ffa500;
+    width: 100%;
+    padding: 10px 20px;
+    display: block;
+    height: 39px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+}
+
+    .signin:hover {
+        background: #ffa500;
+        box-shadow: 0 4px 35px -5px #000000;
+        cursor: pointer;
+        color: white;
+    }
+
+    .signin:focus {
+        outline: none;
+        color: #ffa500;
+    }
+
+.signin1 {
+    background-color: #000000;
+    color: #ffa500;
+    width: 10%;
+    padding: 10px 20px;
+    display: block;
+    height: 39px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+}
+
+    .signin1:hover {
+        background: #ffa500;
+        box-shadow: 0 4px 35px -5px #000000;
+        cursor: pointer;
+        color: white;
+    }
+
+    .signin1:focus {
+        outline: none;
+        color: #ffa500;
+    }
+
+hr {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    top: 85px;
+    position: relative;
+}
+
+a {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    top: 120px;
+    position: relative;
+    text-decoration: none;
+    color: #ffa500;
+}
